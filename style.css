@@ -1,0 +1,139 @@
+.header{
+    border: 1px solid lightgray;
+    color:white ;
+    width: 300px;
+    padding: 8px;
+    margin: 10px;
+    border-radius: 16px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: 700px;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+.main-img{
+    
+    width: 100%;
+    border-radius: 16px;
+}
+.btn{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 8px;
+    width: 45%;
+}
+.header:hover{
+    transform: rotate(4deg);
+    background-color: rgb(156, 137, 137);
+    border: 1px solid rgb(156, 137, 137);
+
+}
+.flex{
+    display:flex;
+    background-image: url(https://source.unsplash.com/1000x1000/?wallpaper);
+    background-repeat: no-repeat;
+    justify-content: center;
+    flex-wrap:wrap;
+    background-size: 100%;
+    
+}
+body{
+    margin:0%
+    background-image: url(https://source.unsplash.com/1600x800/?Java)
+}
+
+a{
+    text-decoration: none;
+    /* color: white; */
+}
+.head{
+    border: 1px solid lavender;
+    font-style: italic;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    background-image: url(https://source.unsplash.com/1000x1000/?wallpaper);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /* margin: auto; */
+    width: auto;
+    
+}
+.button{
+    background-color: aliceblue;
+    border: none;
+    padding: 5px;
+    border-radius: 4px;
+    width: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+.button:hover{
+    transform: scale(2);
+}
+.log{
+    display: flow-box;
+    justify-content: flex-end;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.search{
+    float: right;
+    color: black;
+    border-radius: 14px;
+    font-family: chiller;
+    font-size: larger;
+    width: 10%;
+    flex-wrap: wrap;
+    padding-right: 0%;
+    border: none;
+    padding: 4px;
+}
+}
+.contact{
+    border:1px solid lemonchiffon;
+    color: aliceblue;
+    padding: 200px;
+    margin: 10px;
+    border-radius: 10%;
+    flex-wrap: wrap;
+    background-image: url(https://source.unsplash.com/1000x1000/?wallpaper);
+    gap: 1rem;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.con{
+    background-image: url(https://source.unsplash.com/1000x1600/?contact);
+    width: 100%;
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.inputBox{
+    display: flex;
+    align-items: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: var(--bg);
+    border: var(--border);
+    flex-wrap: wrap;
+}
+.inputBox input{
+    width: 70%;
+    padding: 1rem;
+    font-size: 1.7rem;
+    color: white;
+    text-transform: none;
+    background: none;
+}
+.side{
+   width: 20%;
+   size: 8px;
+    border-radius: 16px;
+    border: 3px black;
+    background-image: url(https://source.unsplash.com/1000x1000/?wallpaper);
+}
